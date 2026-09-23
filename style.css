@@ -1,0 +1,20 @@
+   header{
+                background-color: #FFC7E8;
+                color: #000000;
+                text-align: center;
+            }
+main{
+    background-color: #000000;
+    color: #FFC7E8;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    display: flex;
+}
+.artigo-autor {
+    font-weight: bold;
+}

@@ -1,37 +1,28 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width-devise-width,
         inital-scale= 1.0">
         <title>Mini histórias de amor</title>
-        <style>
-            header{
-                background-color: #FFC7E8;
-                color: #000000;
-                text-align: center;
-            }
-main{
-    background-color: #000000;
-    color: #FFC7E8;
-}
-img{
-    width: 100px;
-    height: 100px;
-}
-
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
+
     <header> 
     <h1>CIA DO AMOR</h1>
     <p>Relatos de corações partidos </p>
 </header>
+
 <main>
     <img src="imagem-blog.png" alt="Um coração partido em estilo pixel art na cor rosa claro (#FFC7E8), centralizado sobre um fundo totalmente preto (#000000)."
- <h2> Orgulho e Preconceito</h2>
+ <h2> Orgulho & Preconceito</h2>
+
 <p>Por: Sofia Sgb</p>
+
 <p>  A- "Tudo começou em 2023 com um menino chamado Alejandro, que decidiu se apoximar de mim por conta que tínhamos amigos em comum.
     Até que um dia eu estava passando o intervalo sozinha, lendo um livro chamado "Orgulho e Preconceito", e ele veio até mim falando
     que amava livros de romance clássico e perguntou se podia ler comigo, e a partir daí passamos 3 meses lendo juntos (riamos mais
@@ -43,6 +34,18 @@ img{
     assunto". Eu fiquei devastada e MUITO TRISTE.
     Em 2024( dois mil e vinte e quatro) eu descobri que ele virou trans e estava namorando um garoto, e esse ano 2026 (dois mil e 
     vinte e seis) ele me pediu para me seguir no Instagram KKK. È inacreditável mesmo." </p>
+    
+    <button>❤️ <span>0</span></button>
+
+</div>
+
+<script> const botao = document.querySelector("button");
+ botao.addEventListener("click", botaoClicado);
+  function botaoClicado() { 
+    console.log("fui clicado"); 
+  let texto = botao.querySelector("span");
+   texto.textContent++; }
+    </script>
 
 </main>
     </body>
